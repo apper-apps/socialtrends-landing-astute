@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "icon": "Radar",
+    "headline": "Uncover Tomorrow's Trends, Today",
+    "description": "Don't just follow the conversation—lead it. Our AI constantly scans the digital horizon across TikTok, X (Twitter), Instagram, and more to identify emerging topics, sounds, and hashtags before they go mainstream.",
+    "visualType": "dashboard"
+  },
+  {
+    "Id": 2,
+    "icon": "Zap",
+    "headline": "Turn a Trend into Your Masterpiece",
+    "description": "Knowing the trend is only half the battle. SocialTrends gives you the creative spark to capitalize on it. Instantly generate post ideas, video scripts, and compelling copy tailored to any trend.",
+    "visualType": "content-creation"
+  },
+  {
+    "Id": 3,
+    "icon": "Share2",
+    "headline": "One Click. Every Channel. Perfect Timing",
+    "description": "Stop the endless cycle of copy-pasting and logging into different apps. With SocialTrends, you can publish your perfectly crafted content to all your social platforms from one central hub.",
+    "visualType": "publishing"
+  }
+]

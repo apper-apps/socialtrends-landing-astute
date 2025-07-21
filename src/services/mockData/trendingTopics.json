@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "platform": "TikTok",
+    "topic": "#AIArt",
+    "growth": 847,
+    "timestamp": "2 hours ago"
+  },
+  {
+    "Id": 2,
+    "platform": "Twitter",
+    "topic": "Sustainable Tech",
+    "growth": 432,
+    "timestamp": "4 hours ago"
+  },
+  {
+    "Id": 3,
+    "platform": "Instagram",
+    "topic": "#MorningRoutine",
+    "growth": 276,
+    "timestamp": "6 hours ago"
+  },
+  {
+    "Id": 4,
+    "platform": "YouTube",
+    "topic": "Remote Work Tips",
+    "growth": 189,
+    "timestamp": "8 hours ago"
+  }
+]

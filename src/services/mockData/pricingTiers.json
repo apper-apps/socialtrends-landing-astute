@@ -1,0 +1,40 @@
+[
+  {
+    "Id": 1,
+    "name": "Starter",
+    "price": 0,
+    "features": [
+      "5 trend alerts per day",
+      "Basic content suggestions",
+      "2 social platforms",
+      "Community support"
+    ],
+    "highlighted": false
+  },
+  {
+    "Id": 2,
+    "name": "Creator",
+    "price": 29,
+    "features": [
+      "Unlimited trend alerts",
+      "AI content generation",
+      "All social platforms",
+      "Advanced analytics",
+      "Priority support"
+    ],
+    "highlighted": true
+  },
+  {
+    "Id": 3,
+    "name": "Agency",
+    "price": 99,
+    "features": [
+      "Multi-account management",
+      "Custom trend tracking",
+      "White-label reports",
+      "API access",
+      "Dedicated support"
+    ],
+    "highlighted": false
+  }
+]
