@@ -36,12 +36,18 @@ export default {
       backdropBlur: {
         xs: '2px',
       },
-      animation: {
+animation: {
         'float': 'float 6s ease-in-out infinite',
         'wave': 'wave 3s ease-in-out infinite',
         'glow': 'glow 2s ease-in-out infinite alternate',
         'slide-up': 'slideUp 0.5s ease-out',
         'fade-in': 'fadeIn 0.5s ease-out',
+        'wave-flow': 'waveFlow linear infinite',
+        'arrow-float': 'arrowFloat linear infinite',
+        'particle-move': 'particleMove linear infinite',
+        'orb-drift': 'orbDrift ease-in-out infinite',
+        'data-pulse': 'dataPulse ease-in-out infinite',
+        'orbital-motion': 'orbitalMotion linear infinite',
       },
       keyframes: {
         float: {
@@ -64,6 +70,37 @@ export default {
         fadeIn: {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
+        },
+        waveFlow: {
+          '0%': { transform: 'translateX(-100%) scaleY(0.8)' },
+          '50%': { transform: 'translateX(50vw) scaleY(1.2)' },
+          '100%': { transform: 'translateX(200%) scaleY(0.8)' },
+        },
+        arrowFloat: {
+          '0%': { transform: 'translateY(100vh) rotate(0deg)', opacity: '0' },
+          '10%': { opacity: '0.7' },
+          '90%': { opacity: '0.7' },
+          '100%': { transform: 'translateY(-100px) rotate(15deg)', opacity: '0' },
+        },
+        particleMove: {
+          '0%': { transform: 'translate(0, 0) scale(0)', opacity: '0' },
+          '10%': { opacity: '0.8', transform: 'scale(1)' },
+          '90%': { opacity: '0.8' },
+          '100%': { transform: 'translate(100vw, -100vh) scale(0)', opacity: '0' },
+        },
+        orbDrift: {
+          '0%, 100%': { transform: 'translate(0, 0) scale(1)' },
+          '25%': { transform: 'translate(20px, -30px) scale(1.1)' },
+          '50%': { transform: 'translate(-10px, 20px) scale(0.9)' },
+          '75%': { transform: 'translate(-20px, -10px) scale(1.05)' },
+        },
+        dataPulse: {
+          '0%, 100%': { transform: 'scale(1)', opacity: '0.6' },
+          '50%': { transform: 'scale(1.3)', opacity: '1' },
+        },
+        orbitalMotion: {
+          '0%': { transform: 'rotate(0deg) translateX(30px) rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg) translateX(30px) rotate(-360deg)' },
         },
       },
     },
