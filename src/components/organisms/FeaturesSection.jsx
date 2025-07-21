@@ -97,9 +97,9 @@ const FeaturesSection = () => {
             <div className="glass rounded-2xl p-8 border border-accent-blue/20">
               <h3 className="text-2xl font-bold text-white mb-4">
                 Ready to Ride the Next Wave?
-              </h3>
+</h3>
               <p className="text-gray-300 mb-6">
-                Join thousands of creators who are already trending with SocialTrends.
+                Join thousands of creators who are already trending with Social Trends.
               </p>
               <button className="bg-gradient-blue text-white px-8 py-4 rounded-lg font-semibold hover:scale-105 transition-transform duration-300 glow-blue">
                 Start Your Free Trial

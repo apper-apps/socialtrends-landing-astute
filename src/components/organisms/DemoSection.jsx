@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { trendingService } from "@/services/api/trendingService";
+import ApperIcon from "@/components/ApperIcon";
+import Error from "@/components/ui/Error";
+import Loading from "@/components/ui/Loading";
 import TrendingCard from "@/components/molecules/TrendingCard";
 import Card from "@/components/atoms/Card";
 import Badge from "@/components/atoms/Badge";
 import Button from "@/components/atoms/Button";
-import ApperIcon from "@/components/ApperIcon";
-import Loading from "@/components/ui/Loading";
-import Error from "@/components/ui/Error";
+import { trendingService } from "@/services/api/trendingService";
 
 const DemoSection = () => {
   const [trendingTopics, setTrendingTopics] = useState([]);
@@ -52,17 +52,17 @@ const DemoSection = () => {
           viewport={{ once: true }}
           className="text-center space-y-6 mb-16"
         >
-          <div className="inline-flex items-center space-x-2 glass rounded-full px-4 py-2 border border-accent-green/30">
+<div className="inline-flex items-center space-x-2 glass rounded-full px-4 py-2 border border-accent-green/30">
             <ApperIcon name="Play" className="w-4 h-4 text-accent-green" />
             <span className="text-sm text-accent-green font-medium">Live Demo</span>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold text-white">
-            See SocialTrends in
+            See Social Trends in
             <span className="gradient-text"> Action</span>
           </h2>
           
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Watch our AI discover tomorrow's trends, generate viral content, 
             and publish across all your channels - all in real-time.
           </p>

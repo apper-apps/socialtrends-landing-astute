@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { testimonialsService } from "@/services/api/testimonialsService";
-import TestimonialCard from "@/components/molecules/TestimonialCard";
-import Loading from "@/components/ui/Loading";
-import Error from "@/components/ui/Error";
-import Empty from "@/components/ui/Empty";
 import ApperIcon from "@/components/ApperIcon";
+import Empty from "@/components/ui/Empty";
+import Error from "@/components/ui/Error";
+import Loading from "@/components/ui/Loading";
+import TestimonialCard from "@/components/molecules/TestimonialCard";
+import { testimonialsService } from "@/services/api/testimonialsService";
 
 const TestimonialsSection = () => {
   const [testimonials, setTestimonials] = useState([]);
@@ -45,7 +45,7 @@ const TestimonialsSection = () => {
             <span className="text-sm text-accent-green font-medium">Loved by Creators</span>
           </div>
           
-          <h2 className="text-4xl lg:text-5xl font-bold text-white">
+<h2 className="text-4xl lg:text-5xl font-bold text-white">
             Trusted by creators,
             <span className="gradient-text"> marketers</span>, and
             <span className="gradient-text"> founders</span> worldwide
@@ -53,10 +53,9 @@ const TestimonialsSection = () => {
           
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Join thousands who are already riding the wave to viral success 
-            with SocialTrends. Here's what they're saying about us.
+            with Social Trends. Here's what they're saying about us.
           </p>
         </motion.div>
-
         {/* Social Proof Stats */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

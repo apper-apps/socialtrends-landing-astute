@@ -59,13 +59,12 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
-              className="text-xl text-gray-300 leading-relaxed max-w-2xl"
+className="text-xl text-gray-300 leading-relaxed max-w-2xl"
             >
-              SocialTrends.app is your AI-powered compass to discover emerging trends, 
+              Social Trends is your AI-powered compass to discover emerging trends, 
               generate viral-worthy content, and post directly to all your social channels. 
               <span className="text-accent-blue font-medium"> Stop guessing, start trending.</span>
             </motion.p>
-
             {/* CTA Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}

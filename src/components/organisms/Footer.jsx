@@ -59,13 +59,12 @@ const Footer = () => {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
               className="lg:col-span-2 space-y-6"
-            >
+>
               <Logo className="text-2xl" />
               <p className="text-gray-400 leading-relaxed max-w-md">
-                SocialTrends.app is your AI-powered compass to discover emerging trends, 
+                Social Trends is your AI-powered compass to discover emerging trends, 
                 generate viral-worthy content, and post directly to all your social channels.
               </p>
-              
               {/* Social Links */}
               <div className="flex space-x-4">
                 {socialLinks.map((social) => (
@@ -132,9 +131,9 @@ const Footer = () => {
           viewport={{ once: true }}
           className="py-8 border-t border-gray-800"
         >
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+<div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © {currentYear} SocialTrends.app. All rights reserved.
+              © {currentYear} Social Trends. All rights reserved.
             </div>
             
             <div className="flex items-center space-x-6 text-sm">
